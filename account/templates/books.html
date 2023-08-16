@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Library</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  .book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  .book-image {
+    max-width: 150px;
+    margin-right: 10px;
+  }
+  .book-details {
+    flex-grow: 1;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Online Library</h1>
+    <div class="book">
+      <img class="book-image" src="https://image.isu.pub/120501172222-4b46622d51ae46de847211ed2466b9e0/jpg/page_1.jpg" alt="Book Cover 1">
+      <div class="book-details">
+        <h2>Book Title 1</h2>
+        <p>Author: Author Name 1</p>
+        <p>Publication Date: 2023-08-16</p>
+        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="book">
+      <img class="book-image" src="https://image.isu.pub/120501172222-4b46622d51ae46de847211ed2466b9e0/jpg/page_1.jpg" alt="Book Cover 2">
+      <div class="book-details">
+        <h2>Book Title 2</h2>
+        <p>Author: Author Name 2</p>
+        <p>Publication Date: 2023-08-16</p>
+        <p>Description: Nulla nec tortor sit amet eros mollis fermentum.</p>
+      </div>
+    </div>
+    <!-- Repeat similar "book" divs for more books -->
+  </div>
+</body>
+</html>
